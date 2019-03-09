@@ -1,0 +1,52 @@
+
+
+  #error_page {  
+    color: #444444;
+    overflow: auto;
+    padding-bottom: 10px;
+    /* must be same height as the footer */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    display: block;
+  }
+  
+  
+
+  h2 {
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  .dog_picture {
+    width:70%; 
+    float:right;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+  
+    #error_page {
+      width: 95%;
+      margin: 0;
+      display: block;
+      font-size: 1rem;
+      margin: auto;
+    }
+  
+    .dog_picture {
+      width:85%; 
+      float:right;
+    }
+  
+    h2 {
+      margin: auto;
+      text-align: center;
+      font-size: 4rem;
+    }
+}

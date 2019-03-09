@@ -1,0 +1,6 @@
+.dockerignore
+.vscode/
+node_modules/
+other/
+public/uploads/
+.env
